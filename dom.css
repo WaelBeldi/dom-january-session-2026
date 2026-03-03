@@ -1,0 +1,30 @@
+p {
+  margin: 0;
+}
+
+.cart {
+  margin: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  row-gap: 2rem;
+}
+
+.qty-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.trash-like-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* heart */
+.heart {
+  color: red;
+}
